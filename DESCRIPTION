@@ -1,0 +1,23 @@
+Package: TUD4SZ
+Title: Helper Functions for SZ Genetic Analysis
+Version: 0.0.0.9000
+Authors@R: 
+    c(person(given = "Eugene",
+             family = "Hickey",
+             role = c("aut", "cre"),
+             email = "eugene.hickey@tudublin.ie",
+             comment = c(ORCID = "0000-0001-9813-9323")),
+      person(given = "Katie Elena",
+             family = "Kelly",
+             role = "ctb",
+             email = "X00120104@mytudublin.ie"))
+Description: Loads latest genes from PGC. At the moment that's
+    just SZ genes, but we plan to enhance to ASD, MDD, BP, etc. Also loads
+    in the relevant fields from the Allen Brain Atlas, and tidies and
+    widens them with the genes in question.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to
+    pick a license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
